@@ -44,11 +44,7 @@ Zakres nie obejmuje:
 | Testy eksploracyjne  | 2h          | Zrealizowane |
 | Zgłoszenie defektów  | 1h          | Zrealizowane |
 
-## 9. Raport z testów
 
-
-
----
 
 **Autor:** Kamil Szyszkowski  
 **Data:** Kwiecień 2025
