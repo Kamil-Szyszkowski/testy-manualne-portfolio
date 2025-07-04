@@ -47,9 +47,6 @@ Zakres nie obejmuje:
 | Testy eksploracyjne   | 5h          | Zrealizowane |
 | Zgłoszenie defektów   | 1h          | Zrealizowane |
 
-## 9. Raport z testów
-
-📄 Raport z testów – [Jira test aplikacji MrBuggy.docx](./Jira%20test%20aplikacji%20MrBuggy.docx)
 
 ---
 
