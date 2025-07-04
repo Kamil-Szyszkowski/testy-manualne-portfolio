@@ -44,9 +44,7 @@ Zakres nie obejmuje:
 | Testy eksploracyjne  | 3h          | Zrealizowane |
 | Zgłoszenie defektów  | 1h          | Zrealizowane |
 
-## 9. Raport z testów
 
-📄 Raport z testów – [Testy Eksploracyjne - academybugs.docx](./Testy%20Eksploracyjne%20-%20academybugs.docx)
 
 ---
 
