@@ -46,7 +46,7 @@ Zakres nie obejmuje:
 
 ## 9. Raport z testów
 
-📄 Raport z testów – [Testy Eksploracyjne - DachLUX.docx](./TestyEksploracyjne_DachLUX.docx)
+
 
 ---
 
