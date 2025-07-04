@@ -31,11 +31,7 @@ Testy zostały przeprowadzone w środowisku użytkownika końcowego na komputerz
 
 ---
 
-## 🔗 Załączniki
 
--📄 Raport z testów – [Testy Eksploracyjne - DachLUX.docx](./TestyEksploracyjne_DachLUX.docx)
-
--📄 Plan testów – [Plan-Testów-DachLUX.md](./Plan-Testów-DachLUX.md)
 
 
 
