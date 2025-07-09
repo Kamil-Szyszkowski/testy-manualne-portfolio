@@ -21,7 +21,8 @@ Poniżej znajdują się screenshoty kilku z zaraportowanych przeze mnie błędó
 
 ---
 #### Błąd w Logice Biznesowej: Zła kalkulacja sumy w koszyku
-![blad222](https://github.com/user-attachments/assets/777c5d9d-fa30-4e6b-baaf-030d9fe2b2b9)
+![blad22](https://github.com/user-attachments/assets/321c1570-b1fc-4a2c-9d11-fad94082b1c1)
+
 
 
 
