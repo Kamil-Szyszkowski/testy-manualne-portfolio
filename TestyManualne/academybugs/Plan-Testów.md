@@ -34,8 +34,9 @@ Zakres nie obejmuje:
 - Błąd trywialny
 
 ## 7. Narzędzia
-- Google Docs – raportowanie błędów
+- Jira - raportowanie błędów
 - ShareX – tworzenie zrzutów ekranu i nagrań
+
 
 ## 8. Harmonogram testów
 
