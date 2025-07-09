@@ -1,67 +1,42 @@
-# Testy Eksploracyjne – AcademyBugs
+## Flagowy Projekt: Testowanie Aplikacji "MrBuggy"
 
-Projekt zawiera listę defektów znalezionych podczas testów eksploracyjnych strony [academybugs.com](https://academybugs.com).  
-Pełna dokumentacja zgłoszeń znajduje się w pliku `.docx`. Poniżej zaprezentowano dwa przykładowe błędy.
+W ramach tego projektu przeprowadziłem testy eksploracyjne oraz analizę funkcjonalną aplikacji demonstracyjnej MrBuggy w celu identyfikacji defektów.
+
+* **Podejście:** Testy manualne funkcjonalne, testy eksploracyjne.
+* **Narzędzia:** Jira, Git, GitHub, ShareX.
+* **Zobacz szczegółowy Plan Testów:** [Plan Testów - MrBuggy](./documentation/Plan-Testow.md)
+
+### Dowody Pracy: Przykładowe Zgłoszenia Błędów w Jirze
+
+Poniżej znajdują się screenshoty kilku z zaraportowanych przeze mnie błędów. Pokazują one różnorodność znalezionych defektów – od błędów krytycznych po drobne usterki w interfejsie.
+
+---
+#### Błąd Krytyczny: Crash aplikacji po zmianie waluty
+![Zgłoszenie błędu krytycznego](documentation/bug-reports/bug-crash.png)
+
+---
+#### Błąd w Logice Biznesowej: Zła kalkulacja sumy w koszyku
+![Zgłoszenie błędu w logice](documentation/bug-reports/bug-logic.png)
+
+---
+#### Błąd UI: Niepoprawne wyrównanie tekstu na przycisku
+![Zgłoszenie błędu UI](documentation/bug-reports/bug-ui-text.png)
 
 ---
 
-## 📌 Przykładowe zgłoszenia błędów
+### Zobacz Pełen Projekt w Jirze
 
-### 🔴 Błąd 1 – Zmiana waluty powoduje crash strony
+Wszystkie 7 zidentyfikowanych błędów zostało zaraportowanych na publicznej tablicy w Jirze.
 
-- **Priorytet**: Wysoki  
-- **Opis**: Podczas zmiany waluty w zakładce „Select a Currency” strona przestaje działać.  
-- **Kroki do reprodukcji**:
-  1. Przejdź na stronę academybugs.com
-  2. Kliknij „Find Bugs”
-  3. Przejdź do zakładki „My Cart”
-  4. W sekcji „Select a Currency” zmień walutę np. z USD na EUR
-- **Rzeczywisty rezultat**: Strona się crashuje  
-- **Oczekiwany rezultat**: Strona powinna przeliczyć wartości i działać poprawnie  
-- **Dowód (film)**:
--
-- [Zobacz nagranie](https://drive.google.com/file/d/1mhpAPnQyQvJhHi7R--1I2VZgx6VNyu_q/view?usp=sharing)
+* **➡️ [Link do tablicy Kanban z wszystkimi błędami](TUTAJ_WKLEJ_SWÓJ_LINK_DO_JIRY)**
 
 ---
 
-### 🔴 Błąd 2 – Brak możliwości zamówienia więcej niż 2 sztuk produktu
+## Plany Rozwoju
 
-- **Priorytet**: Wysoki  
-- **Opis**: Po zwiększeniu liczby produktu w koszyku do więcej niż 2 i kliknięciu „Update”, system automatycznie zmienia wartość z powrotem na 2.  
-- **Kroki do reprodukcji**:
-  1. Przejdź na stronę academybugs.com
-  2. Kliknij „Find Bugs” → wybierz produkt i dodaj do koszyka
-  3. Przejdź do koszyka
-  4. Ustaw ilość na np. „4” i kliknij „Update”
-- **Rzeczywisty rezultat**: Liczba sztuk zmienia się z 4 na 2  
-- **Oczekiwany rezultat**: System powinien pozwalać na zakup większej liczby produktów, jeśli są dostępne  
-- **Dowód (film)**: [Zobacz nagranie](https://drive.google.com/file/d/1P42UCoX3EUHwZnIY1X5R5USxFw2bpvMr/view?usp=sharing)
+W przyszłości planuję rozbudować to portfolio o:
+* Testy automatyczne (Cypress)
+* Testy API (Postman)
+* Testy SQL (analiza danych)
 
-
-
----
-
-## 🧪 Zakres testów eksploracyjnych
-
-- Filtrowanie produktów
-- Funkcje koszyka i checkoutu
-- Responsywność przycisków i elementów interfejsu
-- Walidacja języka, waluty, ikon i linków
-- Poprawność elementów graficznych i wyrównań
-
----
-
-## 🖥️ Środowisko testowe
-
-- System operacyjny: Windows 11 Pro 64bit  
-- Przeglądarka: Opera
-
----
-
-
-
-## 📍 Status projektu
-
-Projekt demonstracyjny – część portfolio testera manualnego.  
-Zadanie wykonane samodzielnie w ramach ćwiczeń testerskich.
-
+Dziękuję za odwiedziny! Wszelkie uwagi mile widziane.
