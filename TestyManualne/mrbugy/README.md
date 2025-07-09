@@ -1,65 +1,46 @@
 
-## 📌 Przykładowe zgłoszenia błędów
+# Testowanie Aplikacji "MrBuggy"
 
-### 🔴 Błąd 1 – Brak walidacji pola "Confirm password"
-
-- **Priorytet**: Niski  
-- **Opis**: Podczas dodawania nowego administratora brak komunikatu walidacyjnego przy pustym polu "Confirm password".  
-- **Kroki do reprodukcji**:
-  1. Zaloguj się jako administrator
-  2. Przejdź do zakładki “Users”
-  3. Kliknij “New Admin”
-  4. Zostaw wszystkie pola puste i kliknij “Save”
-- **Rzeczywisty rezultat**: Brakuje komunikatu walidacyjnego dla pola "Confirm password"  
-- **Oczekiwany rezultat**: Powinien pojawić się komunikat „This field is required.”  
-- **Dowód (film)**: [Zobacz nagranie](https://drive.google.com/file/d/1gD-ZyHXWGRpnlZB1e_9Xz0DpbcmzYyuo/view?usp=sharing)
+Ten projekt dokumentuje proces testowania aplikacji desktopowej MrBuggy7 w celu identyfikacji defektów bezpieczeństwa, funkcjonalnych oraz w walidacji formularzy.
 
 ---
 
-### 🟠 Błąd 2 – Wyszukiwarka ignoruje wielkość liter
+### Narzędzia i podejście testowe
 
-- **Priorytet**: Średni  
-- **Opis**: Wyszukiwarka w zakładce „Providers” nie rozróżnia wielkich i małych liter.  
-- **Kroki do reprodukcji**:
-  1. Stwórz dwóch Providerów: „TEST” i „test”
-  2. Wyszukaj frazę „test”
-- **Rzeczywisty rezultat**: Oba wyniki są traktowane jako różne – brak walidacji  
-- **Oczekiwany rezultat**: System powinien wykrywać duplikaty niezależnie od wielkości liter  
-- **Dowód (film)**: [Zobacz nagranie](https://drive.google.com/file/d/1srdinhVljyG4Uj0F-2fn9C1N5X_JcHI5/view?usp=sharing)
+W ramach tego projektu korzystałem z następujących narzędzi i metodyk:
 
----
-
-## 🧾 Opis projektu
-
-Dokument przygotowany w formacie przypominającym zgłoszenia do systemu JIRA, zawiera dokładne opisy defektów wraz z:
-- Tytułem błędu
-- Priorytetem
-- Kroki do reprodukcji
-- Rzeczywistym i oczekiwanym rezultatem
-- Środowiskiem testowym
-- Załącznikami (screeny, filmy – linki do Google Drive)
+* **Jira:** Do śledzenia, kategoryzowania i dokumentowania wszystkich znalezionych defektów.
+* **GitHub:** Jako centralne repozytorium dla całej dokumentacji testowej i do kontroli wersji.
+* **ShareX / Narzędzie Wycinanie:** Do tworzenia precyzyjnych zrzutów ekranu i nagrań wideo dokumentujących błędy.
+* **Testy Eksploracyjne:** Jako główna technika testowania, pozwalająca na swobodne odkrywanie aplikacji i znajdowanie nieoczywistych błędów.
+* **Analiza Funkcjonalna:** Do zrozumienia, jak aplikacja powinna działać i weryfikacji jej zgodności z oczekiwaniami.
 
 ---
 
-## 🧪 Zakres testów
-- Walidacja pól formularzy
-- Responsywność elementów interfejsu
-- Obsługa klawiatury i skrótów
-- Wyszukiwarka, filtrowanie, lista wyników
-- Obsługa znaków specjalnych i polskich
+### Dokumentacja Projektu
+
+* **Zobacz szczegółowy Plan Testów:** [Plan-Testow-MrBuggy.md](./Plan-Testow-MrBuggy.md)
 
 ---
 
-## 🖥️ Środowisko testowe
-- System operacyjny: Windows 11
-- Przeglądarka: Opera (wersja aktualna)
-- Aplikacja: MrBuggy7 (wersja testowa)
+## Zaraportowane Błędy (Wybrane Przykłady)
 
----
+Poniżej znajdują się screenshoty wybranych defektów, które zostały zaraportowane w systemie Jira. Zostały one wybrane, aby zademonstrować różnorodność znalezionych problemów.
 
+### 1. Błąd Krytyczny (Bezpieczeństwo): Możliwość otwarcia dowolnej strony internetowej w aplikacji
 
----
+**Opis błędu:** Ten defekt o wysokim priorytecie pozwala użytkownikowi na otwarcie dowolnej witryny internetowej (np. Google) w tle aplikacji za pomocą skrótów klawiszowych `CTRL+O` lub `CTRL+L`. Jest to luka w bezpieczeństwie, ponieważ program powinien blokować takie działania.
 
-## 📍 Status projektu
-Projekt demonstracyjny – część portfolio testera manualnego.  
-Zadanie zrealizowane samodzielnie w ramach ćwiczeń testerskich.
+![Zgłoszenie błędu krytycznego - otwieranie stron](./bug-reports/bug-security-ctrl-o.png)
+
+### 2. Błąd Funkcjonalny: Wyszukiwarka nie odświeża wyników po wyczyszczeniu
+
+**Opis błędu:** To zgłoszenie o średnim priorytecie opisuje sytuację, w której wyszukiwarka w zakładce "Providers" nie odświeża listy wyników po usunięciu frazy za pomocą ikonki "x". Użytkownik musi ręcznie odświeżyć widok, co psuje doświadczenie i jest nielogiczne.
+
+![Zgłoszenie błędu wyszukiwarki](./bug-reports/bug-search-clear.png)
+
+### 3. Błąd Walidacji Formularza: Brak komunikatu walidacyjnego
+
+**Opis błędu:** Ten błąd o niskim priorytecie pokazuje brak komunikatu walidacyjnego ("This field is required.") dla pola "Confirm password" podczas tworzenia nowego administratora. Mimo że inne pola mają walidację, to jedno zostało pominięte, co wprowadza niespójność.
+
+![Zgłoszenie błędu walidacji formularza](./bug-reports/bug-validation-password.png)
