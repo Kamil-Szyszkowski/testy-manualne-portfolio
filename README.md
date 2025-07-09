@@ -24,7 +24,7 @@ Poniżej znajdują się projekty testowe, każdy w osobnym folderze z kompletną
 
 - `Plan-Testów.md` – cel testów, zakres, harmonogram
 - `README.md` – ogólny opis projektu
-- `*.docx` – raport z testów / zgłoszenia błędów
+
 
 ---
 
