@@ -12,7 +12,8 @@ Poniżej znajdują się screenshoty kilku z zaraportowanych przeze mnie błędó
 
 ---
 #### Błąd Krytyczny: Crash aplikacji po zmianie waluty
-![Uploading blad11.png…]()
+![blad11](https://github.com/user-attachments/assets/30d7374d-a8c3-468f-a033-52d63f404896)
+
 
 
 
