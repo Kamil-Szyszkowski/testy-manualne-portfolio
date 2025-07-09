@@ -28,15 +28,9 @@ Poniżej znajdują się screenshoty kilku z zaraportowanych przeze mnie błędó
 
 ---
 #### Błąd UI: Niepoprawne wyrównanie tekstu na przycisku
-![Zgłoszenie błędu UI](documentation/bug-reports/bug-ui-text.png)
+![blad33](https://github.com/user-attachments/assets/8222e937-dd50-449a-bd6b-31cacdd5d8fa)
 
----
 
-### Zobacz Pełen Projekt w Jirze
-
-Wszystkie 7 zidentyfikowanych błędów zostało zaraportowanych na publicznej tablicy w Jirze.
-
-* **➡️ [Link do tablicy Kanban z wszystkimi błędami](TUTAJ_WKLEJ_SWÓJ_LINK_DO_JIRY)**
 
 ---
 
