@@ -5,7 +5,7 @@ Nazywam się **Kamil Szyszkowski**, jestem studentem informatyki i uczę się te
 To repozytorium zawiera dokumentację testów manualnych zrealizowanych w ramach praktyki, kursów oraz własnej nauki.
 
 📫 **Kontakt:** kamilszyszkowskii@op.pl  
-🔗 [LinkedIn](https://www.linkedin.com/in/kamil-szyszkowski-a55a00270)
+🔗 [Zobacz mój profil na LinkedIn](https://www.linkedin.com/in/kamil-szyszkowski-a55a00270)
 
 ---
 
