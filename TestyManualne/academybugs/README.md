@@ -12,7 +12,8 @@ Poniżej znajdują się screenshoty kilku z zaraportowanych przeze mnie błędó
 
 ---
 #### Błąd Krytyczny: Crash aplikacji po zmianie waluty
-![Zgłoszenie błędu krytycznego](documentation/bug-reports/bug-crash.png)
+![image](https://github.com/user-attachments/assets/59a104a5-b829-4e12-a758-89899c1093a7)
+
 
 ---
 #### Błąd w Logice Biznesowej: Zła kalkulacja sumy w koszyku
