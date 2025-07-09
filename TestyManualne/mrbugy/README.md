@@ -19,7 +19,7 @@ W ramach tego projektu korzystałem z następujących narzędzi i metodyk:
 
 ### Dokumentacja Projektu
 
-* **Zobacz szczegółowy Plan Testów:** [Plan-Testow-MrBuggy.md](./Plan-Testow-MrBuggy.md)
+* **Zobacz szczegółowy Plan Testów:** [Plan-Testow-MrBuggy.md](https://github.com/Kamil-Szyszkowski/testy-manualne-portfolio/blob/main/TestyManualne/mrbugy/Plan-Testów.md)
 
 ---
 
