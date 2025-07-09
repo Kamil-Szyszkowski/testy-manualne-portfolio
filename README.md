@@ -17,7 +17,7 @@ Poniżej znajdują się projekty testowe, każdy w osobnym folderze z kompletną
 |---------------|----------------------------------------------------------------------|
 | [`DachLUX`](./TestyManualne/DachLUX)      | Testy eksploracyjne strony dachluxaugustow.pl |
 | [`AcademyBugs`](./TestyManualne/academybugs) | Symulacja testów na aplikacji do ćwiczeń błędów |
-| [`MrBuggy`](./TestyManualne/mrbuggy)      | Zgłoszenia błędów z użyciem JIRA – projekt MrBuggy |
+| [`MrBuggy`](https://github.com/Kamil-Szyszkowski/testy-manualne-portfolio/tree/main/TestyManualne/mrbugy)      | Zgłoszenia błędów z użyciem JIRA – projekt MrBuggy |
 
 ---
 
