@@ -21,7 +21,8 @@ Poniżej znajdują się screenshoty kilku z zaraportowanych przeze mnie błędó
 
 ---
 #### Błąd w Logice Biznesowej: Zła kalkulacja sumy w koszyku
-![Zgłoszenie błędu w logice](documentation/bug-reports/bug-logic.png)
+![Uploading blad222.png…]()
+
 
 ---
 #### Błąd UI: Niepoprawne wyrównanie tekstu na przycisku
