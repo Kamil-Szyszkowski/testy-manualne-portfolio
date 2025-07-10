@@ -31,7 +31,8 @@ Poniżej znajdują się screenshoty wybranych defektów, które zostały zarapor
 
 **Opis błędu:** Ten defekt o wysokim priorytecie pozwala użytkownikowi na otwarcie dowolnej witryny internetowej (np. Google) w tle aplikacji za pomocą skrótów klawiszowych `CTRL+O` lub `CTRL+L`. Jest to luka w bezpieczeństwie, ponieważ program powinien blokować takie działania.
 
-![Zgłoszenie błędu krytycznego - otwieranie stron](./bug-reports/bug-security-ctrl-o.png)
+![bugy1](https://github.com/user-attachments/assets/624a1830-931f-4aec-9ebd-3cecb768e36b)
+
 
 ### 2. Błąd Funkcjonalny: Wyszukiwarka nie odświeża wyników po wyczyszczeniu
 
