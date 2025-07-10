@@ -1,4 +1,4 @@
-## Testowanie strony AcademyBugs
+## Testowanie strony "AcademyBugs"
 
 W ramach tego projektu przeprowadziłem testy eksploracyjne oraz analizę funkcjonalną aplikacji demonstracyjnej MrBuggy w celu identyfikacji defektów.
 
