@@ -38,7 +38,8 @@ Poniżej znajdują się screenshoty wybranych defektów, które zostały zarapor
 
 **Opis błędu:** To zgłoszenie o średnim priorytecie opisuje sytuację, w której wyszukiwarka w zakładce "Providers" nie odświeża listy wyników po usunięciu frazy za pomocą ikonki "x". Użytkownik musi ręcznie odświeżyć widok, co psuje doświadczenie i jest nielogiczne.
 
-![Zgłoszenie błędu wyszukiwarki](./bug-reports/bug-search-clear.png)
+![bugy2](https://github.com/user-attachments/assets/dd0608eb-0dcf-4d81-8a02-d8dd4cf5cf1f)
+
 
 ### 3. Błąd Walidacji Formularza: Brak komunikatu walidacyjnego
 
