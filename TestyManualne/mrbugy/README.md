@@ -29,21 +29,21 @@ Poniżej znajdują się screenshoty wybranych defektów, które zostały zarapor
 
 ### 1. Błąd Krytyczny (Bezpieczeństwo): Możliwość otwarcia dowolnej strony internetowej w aplikacji
 
-**Opis błędu:** Ten defekt o wysokim priorytecie pozwala użytkownikowi na otwarcie dowolnej witryny internetowej (np. Google) w tle aplikacji za pomocą skrótów klawiszowych `CTRL+O` lub `CTRL+L`. Jest to luka w bezpieczeństwie, ponieważ program powinien blokować takie działania.
+
 
 ![bugy1](https://github.com/user-attachments/assets/624a1830-931f-4aec-9ebd-3cecb768e36b)
 
 
 ### 2. Błąd Funkcjonalny: Wyszukiwarka nie odświeża wyników po wyczyszczeniu
 
-**Opis błędu:** To zgłoszenie o średnim priorytecie opisuje sytuację, w której wyszukiwarka w zakładce "Providers" nie odświeża listy wyników po usunięciu frazy za pomocą ikonki "x". Użytkownik musi ręcznie odświeżyć widok, co psuje doświadczenie i jest nielogiczne.
+
 
 ![bugy2](https://github.com/user-attachments/assets/dd0608eb-0dcf-4d81-8a02-d8dd4cf5cf1f)
 
 
 ### 3. Błąd Walidacji Formularza: Brak komunikatu walidacyjnego
 
-**Opis błędu:** Ten błąd o niskim priorytecie pokazuje brak komunikatu walidacyjnego ("This field is required.") dla pola "Confirm password" podczas tworzenia nowego administratora. Mimo że inne pola mają walidację, to jedno zostało pominięte, co wprowadza niespójność.
+
 
 ![bugy3](https://github.com/user-attachments/assets/a5bade1a-841b-4ab3-b331-4cb5500dfde1)
 
