@@ -45,7 +45,8 @@ Poniżej znajdują się screenshoty wybranych defektów, które zostały zarapor
 
 **Opis błędu:** Ten błąd o niskim priorytecie pokazuje brak komunikatu walidacyjnego ("This field is required.") dla pola "Confirm password" podczas tworzenia nowego administratora. Mimo że inne pola mają walidację, to jedno zostało pominięte, co wprowadza niespójność.
 
-![Zgłoszenie błędu walidacji formularza](./bug-reports/bug-validation-password.png)
+![bugy3](https://github.com/user-attachments/assets/a5bade1a-841b-4ab3-b331-4cb5500dfde1)
+
 
 ---
 
