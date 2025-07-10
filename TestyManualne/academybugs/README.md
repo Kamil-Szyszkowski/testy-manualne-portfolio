@@ -4,7 +4,7 @@ W ramach tego projektu przeprowadziłem testy eksploracyjne oraz analizę funkcj
 
 * **Podejście:** Testy manualne funkcjonalne, testy eksploracyjne.
 * **Narzędzia:** Jira, Git, GitHub, ShareX.
-* **Zobacz szczegółowy Plan Testów:** [Plan Testów - MrBuggy](https://github.com/Kamil-Szyszkowski/testy-manualne-portfolio/blob/main/TestyManualne/academybugs/Plan-Testów.md)
+* **Zobacz szczegółowy Plan Testów:** [Plan Testów - AcademyBugs](https://github.com/Kamil-Szyszkowski/testy-manualne-portfolio/blob/main/TestyManualne/academybugs/Plan-Testów.md)
 
 ### Dowody Pracy: Przykładowe Zgłoszenia Błędów w Jirze
 
