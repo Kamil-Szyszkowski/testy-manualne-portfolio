@@ -4,7 +4,7 @@ W ramach tego projektu przeprowadziłem testy eksploracyjne oraz analizę funkcj
 
 **Podejście:** Testy manualne funkcjonalne, testy eksploracyjne.  
 **Narzędzia:** Git, GitHub, ShareX, iPhone 16 Pro (testy mobilne).  
-**Zobacz szczegółowy Plan Testów:** [Plan Testów - Dach-Lux](link_do_pliku_word_lub_pdf)
+**Zobacz szczegółowy Plan Testów:** [Plan Testów - Dach-Lux]([link_do_pliku_word_lub_pdf](https://github.com/Kamil-Szyszkowski/testy-manualne-portfolio/blob/main/TestyManualne/DachLux/Plan_Testow.md))
 
 ## Dowody Pracy: Przykładowe Zgłoszenia Błędów
 
