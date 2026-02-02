@@ -1,6 +1,6 @@
 # Plan Testów - Dach-Lux
 
-Niniejszy dokument opisuje planowanie i organizację procesu testowego dla serwisu **dachluxaugustow.pl**.
+Niniejszy dokument opisuje planowanie i organizację procesu testowego dla strony **dachluxaugustow.pl**.
 
 ### 1. Wstęp
 Celem projektu jest identyfikacja błędów w działaniu strony internetowej, które utrudniają użytkownikom kontakt z firmą oraz negatywnie wpływają na wizerunek marki.
@@ -36,11 +36,12 @@ Celem projektu jest identyfikacja błędów w działaniu strony internetowej, kt
 * **Google Drive**: przechowywanie plików źródłowych i dodatkowej dokumentacji.
 
 ### 8. Harmonogram testów
-| Faza | Zadanie | Status |
-| :--- | :--- | :--- |
-| **I** | Analiza strony i wyznaczenie obszarów krytycznych (e-mail, telefon) | Zakończono ✅ |
-| **II** | Przeprowadzenie testów eksploracyjnych i funkcjonalnych | Zakończono ✅ |
-| **III** | Przygotowanie dokumentacji fotograficznej i opisów defektów | Zakończono ✅ |
+| Faza | Zadanie | Czas trwania | Raportowanie | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| **Planowanie** | Analiza strony i wyznaczenie obszarów krytycznych | 1h | - | Zakończono ✅ |
+| **Testowanie** | Przeprowadzenie testów eksploracyjnych i funkcjonalnych | 3h | 6 testów | Zakończono ✅ |
+| **Dokumentacja** | Przygotowanie zrzutów ekranu i szczegółowych opisów | 2h | 6 błędów | Zakończono ✅ |
+
 
 
 ---
