@@ -1,39 +1,46 @@
-# Plan Testów – Serwis dachluxaugustow.pl
+# Plan Testów - Dach-Lux
 
-W ramach tego projektu przygotowałem plan testów dla rzeczywistej strony usługowej **Dach-Lux**. Skupiłem się na weryfikacji ścieżek krytycznych, które mają bezpośredni wpływ na kontakt klienta z firmą.
+Niniejszy dokument opisuje planowanie i organizację procesu testowego dla serwisu **dachluxaugustow.pl**.
 
-**Podejście:** Testy manualne funkcjonalne, analiza UX/UI.  
-**Narzędzia:** Git, GitHub, Opera, iPhone 16 Pro.  
+### 1. Wstęp
+Celem projektu jest identyfikacja błędów w działaniu strony internetowej, które utrudniają użytkownikom kontakt z firmą oraz negatywnie wpływają na wizerunek marki.
+
+### 2. Zakres testów
+* **Testy funkcjonalne**: weryfikacja wszystkich odnośników, przycisków i nawigacji (e-mail, telefon, linki zewnętrzne).
+* **Testy UX/UI**: analiza czytelności treści oraz estetyki elementów graficznych.
+* **Testy responsywności**: sprawdzenie działania strony na urządzeniach mobilnych.
+
+### 3. Kryteria wejścia
+* Dostęp do publicznej wersji strony dachluxaugustow.pl.
+* Skonfigurowane środowisko testowe (PC, Mobile).
+* Lista obszarów do przetestowania (Kontakt, Galeria, O nas).
+
+### 4. Kryteria wyjścia
+* Przetestowanie wszystkich zaplanowanych funkcjonalności.
+* Udokumentowanie wykrytych defektów za pomocą zrzutów ekranu i opisów.
+* Stworzenie końcowego raportu z testów w pliku README.md.
+
+### 5. Środowisko testowe
+* **System operacyjny**: Windows 11 Pro 64-bit.
+* **Przeglądarka**: Opera.
+* **Urządzenie mobilne**: iPhone 16 Pro.
+
+### 6. Kategorie testów
+* **Testy eksploracyjne**: poszukiwanie błędów bez gotowych scenariuszy na podstawie intuicji testera.
+* **Testy użyteczności**: weryfikacja przyjazności interfejsu dla klienta.
+* **Testy regresji**: sprawdzenie poprawności działania elementów po odświeżeniu strony.
+
+### 7. Narzędzia
+* **Git/GitHub**: kontrola wersji i hostowanie dokumentacji projektu.
+* **ShareX / Systemowe zrzuty ekranu**: dokumentacja wizualna znalezionych błędów.
+* **Google Drive**: przechowywanie plików źródłowych i dodatkowej dokumentacji.
+
+### 8. Harmonogram testów
+| Faza | Zadanie | Status |
+| :--- | :--- | :--- |
+| **I** | Analiza strony i wyznaczenie obszarów krytycznych (e-mail, telefon) | Zakończono ✅ |
+| **II** | Przeprowadzenie testów eksploracyjnych i funkcjonalnych | Zakończono ✅ |
+| **III** | Przygotowanie dokumentacji fotograficznej i opisów defektów | Zakończono ✅ |
+| **IV** | Finalizacja raportu w repozytorium GitHub (README.md) | W toku ⏳ |
 
 ---
-
-## 📌 1. Cel i zakres testów
-Celem jest wykrycie błędów blokujących komunikację oraz weryfikacja poprawności nawigacji w serwisie.
-
-**Zakres obejmuje:**
-* **Sekcja Kontakt:** Testowanie odnośników e-mail oraz tel.
-* **Nawigacja:** Testowanie przycisków w sekcji Galeria oraz linków do Social Media.
-* **Warstwa Wizualna:** Weryfikacja czytelności treści w sekcji "O nas".
-
----
-
-## 🛠 2. Środowisko testowe
-* **Desktop:** Windows 11 Pro, Przeglądarka Opera.
-* **Mobile:** iPhone 16 Pro.
-
----
-
-## 📝 3. Scenariusze Testowe (Zestawienie)
-
-| ID | Tytuł Testu | Opis | Rezultat |
-| :--- | :--- | :--- | :--- |
-| **ST-01** | Weryfikacja linku e-mail | Kliknięcie w adres e-mail w zakładce Kontakt. | ❌ **FAIL** (404) |
-| **ST-02** | Weryfikacja linku tel | Kliknięcie w numer telefonu w zakładce Kontakt. | ❌ **FAIL** (404) |
-| **ST-03** | Test przycisku Aktualności | Kliknięcie w odnośnik "Aktualności" w Galerii. | ❌ **FAIL** (monica.im) |
-| **ST-04** | Test linków Social Media | Sprawdzenie ikon Facebooka w treści i stopce. | ❌ **FAIL** (Błędny cel) |
-| **ST-05** | Test czytelności (UX) | Weryfikacja sekcji „Dlaczego warto wybrać naszą firmę?”. | ❌ **FAIL** (Słaba czytelność) |
-
----
-
-## 🏁 4. Kryteria zakończenia
-Testy uznaje się za zakończone, gdy wszystkie błędy zostaną udokumentowane za pomocą zrzutów ekranu i opisane w raporcie końcowym (README.md).
