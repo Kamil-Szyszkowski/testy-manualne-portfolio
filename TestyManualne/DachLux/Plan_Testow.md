@@ -1,6 +1,8 @@
 Plan Testów – Serwis dachluxaugustow.pl
 1. Wstęp
+   
 Celem niniejszego planu jest określenie zakresu i podejścia do testów eksploracyjnych strony internetowej firmy Dach-Lux. Testy mają na celu wykrycie krytycznych defektów wpływających na wizerunek firmy oraz proces pozyskiwania klientów (konwersję).
+
 2. Zakres testów
 Testy obejmują kluczowe funkcjonalności serwisu:
 
