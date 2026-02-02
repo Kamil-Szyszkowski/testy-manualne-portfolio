@@ -1,1 +1,17 @@
-Plan Testów – Serwis dachluxaugustow.pl1. WstępCelem niniejszego planu jest określenie zakresu i podejścia do testów eksploracyjnych strony internetowej firmy Dach-Lux. Testy mają na celu wykrycie krytycznych defektów wpływających na wizerunek firmy oraz proces pozyskiwania klientów (konwersję).2. Zakres testówTesty obejmują kluczowe funkcjonalności serwisu:Moduł Kontakt: Weryfikacja poprawności odnośników e-mail oraz numerów telefonu.Nawigacja i odnośniki: Sprawdzenie poprawności przekierowań do podstron (Aktualności) oraz mediów społecznościowych.Interfejs użytkownika (UI): Weryfikacja czytelności treści i estetyki elementów graficznych.3. Środowisko testoweTesty przeprowadzane są na następujących konfiguracjach:Desktop: Windows 11 Pro, przeglądarka Opera.Mobile: iPhone 16 Pro (iOS).4. Podejście testoweTesty eksploracyjne: Swobodne testowanie oparte na doświadczeniu testera w celu znalezienia nieoczywistych błędów.Testy funkcjonalne: Weryfikacja, czy elementy interaktywne (linki, przyciski) działają zgodnie z założeniami biznesowymi.5. Zidentyfikowane scenariusze testowe i wynikiPoniżej znajduje się podsumowanie obszarów poddanych testom na podstawie wykrytych defektów:IDObszarOpis testuRezultat ST-01KontaktKliknięcie w adres e-mail w zakładce Kontakt.FAIL: Błąd 404 zamiast mailto:.ST-02KontaktKliknięcie w numer telefonu w celu wykonania połączenia.FAIL: Błąd 404 zamiast tel:.ST-03GaleriaSprawdzenie odnośnika „Aktualności” w treści artykułu.FAIL: Przekierowanie do domeny zewnętrznej monica.im.ST-04O nasKliknięcie w link Facebook w treści strony.FAIL: Przekierowanie na główną tablicę FB zamiast profilu firmy.ST-05StopkaKliknięcie w ikonę Facebook na dole strony.FAIL: Odnośnik nieaktywny.ST-06UI/UXAnaliza czytelności sekcji „Dlaczego warto wybrać naszą firmę?”.FAIL: Zbędne elementy graficzne utrudniające czytanie.6. Kryteria zakończenia testówTesty zostaną uznane za zakończone po udokumentowaniu wszystkich znalezionych defektów i przedstawieniu ich w formie raportu (README.md).
+Plan Testów – Serwis dachluxaugustow.pl
+1. Wstęp
+Celem niniejszego planu jest określenie zakresu i podejścia do testów eksploracyjnych strony internetowej firmy Dach-Lux. Testy mają na celu wykrycie krytycznych defektów wpływających na wizerunek firmy oraz proces pozyskiwania klientów (konwersję).
+2. Zakres testów
+Testy obejmują kluczowe funkcjonalności serwisu:
+
+
+Moduł Kontakt: Weryfikacja poprawności odnośników e-mail oraz numerów telefonu.
+
+
+
+Nawigacja i odnośniki: Sprawdzenie poprawności przekierowań do podstron (Aktualności) oraz mediów społecznościowych.
+
+
+
+
+Interfejs użytkownika (UI): Weryfikacja czytelności treści i estetyki elementów graficznych.
