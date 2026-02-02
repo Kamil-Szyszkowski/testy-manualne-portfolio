@@ -41,6 +41,6 @@ Celem projektu jest identyfikacja błędów w działaniu strony internetowej, kt
 | **I** | Analiza strony i wyznaczenie obszarów krytycznych (e-mail, telefon) | Zakończono ✅ |
 | **II** | Przeprowadzenie testów eksploracyjnych i funkcjonalnych | Zakończono ✅ |
 | **III** | Przygotowanie dokumentacji fotograficznej i opisów defektów | Zakończono ✅ |
-| **IV** | Finalizacja raportu w repozytorium GitHub (README.md) | W toku ⏳ |
+
 
 ---
