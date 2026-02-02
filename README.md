@@ -9,14 +9,13 @@ To repozytorium zawiera dokumentację testów manualnych zrealizowanych w ramach
 
 ---
 
-## 📁 Zawartość repozytorium
+## 📂 Moje Projekty Testowe
 
-Poniżej znajdują się projekty testowe, każdy w osobnym folderze z kompletną dokumentacją.
-
-| Projekt       | Opis                                                                 |
-|---------------|----------------------------------------------------------------------|
-| [`AcademyBugs`](./TestyManualne/academybugs) | Symulacja testów na aplikacji do ćwiczeń błędów |
-| [`MrBuggy`](https://github.com/Kamil-Szyszkowski/testy-manualne-portfolio/tree/main/TestyManualne/mrbugy)      | Zgłoszenia błędów z użyciem JIRA – projekt MrBuggy |
+| Projekt | Opis | Narzędzia | Dokumentacja |
+| :--- | :--- | :--- | :--- |
+| **Dach-Lux** | Testy eksploracyjne i funkcjonalne realnej strony usługowej. Identyfikacja błędów krytycznych dla biznesu. | Opera, iPhone 16 Pro, ShareX | [Raport i Plan Testów](./TestyManualne/DachLux) |
+| **AcademyBugs** | Testy manualne strony treningowej dla testerów. Raportowanie błędów UI/UX. | Jira, Chrome DevTools | [Zobacz projekt](./TestyManualne/academybugs) |
+| **MrBuggy** | Analiza i testy funkcjonalne aplikacji desktopowej/webowej do wyłapywania defektów. | Jira, ShareX | [Zobacz projekt](./TestyManualne/mrbugy) |
 
 ---
 
