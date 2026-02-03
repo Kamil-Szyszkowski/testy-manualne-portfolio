@@ -41,3 +41,4 @@ Poniżej znajduje się widok tablicy z aktualnym statusem wszystkich zgłoszonyc
 ### 5. [UX] Brak nawigacji wstecznej - KAN-4
 **Problem:** Brak możliwości powrotu do poprzedniej strony przyciskiem "wstecz" z poziomu panelu logowania i odzyskiwania danych.
 <img width="783" height="665" alt="image" src="https://github.com/user-attachments/assets/a2f79bfb-7f5a-4b0d-9ea1-838258583499" />
+
