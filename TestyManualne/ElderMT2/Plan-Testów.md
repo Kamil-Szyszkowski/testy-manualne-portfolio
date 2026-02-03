@@ -16,7 +16,6 @@ Zakres nie obejmuje:
 * Testów kompatybilności z urządzeniami mobilnymi.
 
 ## 3. Kryteria wejścia
-* Aplikacja ElderMT2 dostępna w wersji produkcyjnej/testowej.
 * Skonfigurowane środowisko testowe i dostęp do narzędzia Jira.
 
 ## 4. Kryteria wyjścia
