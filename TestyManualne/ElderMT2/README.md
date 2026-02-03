@@ -12,7 +12,8 @@ Przeprowadzenie testów manualnych witryny gry ElderMT2 ze szczególnym uwzględ
 
 ### 1. Tablica Kanban Projektu
 Poniżej znajduje się widok tablicy z aktualnym statusem wszystkich zgłoszonych defektów.
-<img width="943" height="699" alt="q" src="https://github.com/user-attachments/assets/3f881d31-a58d-4216-b65d-6ecb2403bbe1" />
+<img width="986" height="687" alt="image" src="https://github.com/user-attachments/assets/dfc17a96-2652-4594-a7a0-1d3f36b5a546" />
+
 
 
 ---
