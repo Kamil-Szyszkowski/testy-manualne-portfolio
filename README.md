@@ -13,6 +13,7 @@ To repozytorium zawiera dokumentację testów manualnych zrealizowanych w ramach
 
 | Projekt | Opis | Narzędzia | Dokumentacja |
 | :--- | :--- | :--- | :--- |
+| **ElderMT2** | Testy eksploracyjne serwisu gry. Analiza błędów logicznych, technicznych (JS) oraz luk bezpieczeństwa (User Enumeration). | Jira, Opera GX, DevTools | [Zobacz projekt](./TestyManualne/ElderMT2) |
 | **Dach-Lux** | Testy eksploracyjne i funkcjonalne realnej strony usługowej. Identyfikacja błędów krytycznych dla biznesu. | Opera, iPhone 16 Pro, ShareX | [Zobacz projekt](./TestyManualne/DachLux) |
 | **AcademyBugs** | Testy manualne strony treningowej dla testerów. Raportowanie błędów UI/UX. | Jira, Chrome DevTools | [Zobacz projekt](./TestyManualne/academybugs) |
 | **MrBuggy** | Analiza i testy funkcjonalne aplikacji desktopowej/webowej do wyłapywania defektów. | Jira, ShareX | [Zobacz projekt](./TestyManualne/mrbugy) |
